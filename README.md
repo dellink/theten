@@ -1,0 +1,19 @@
+## theten
+A small logic board game written in React Native.
+
+Made just for fun.
+
+### Screenshot
+
+<p align="center">
+  <img src="https://github.com/dellink/theten/blob/master/simulator-screenshot-iPhone11.png" alt="Screenshot"/>
+</p>
+
+### Installation
+
+- `git clone https://github.com/dellink/theten`
+- `cd theten && npm install`
+- `npm run ios`
+
+### License
+**theten** is licensed under the [MIT license.](https://github.com/dellink/theten/blob/master/LICENSE)
