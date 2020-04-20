@@ -19,7 +19,9 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-
-      - run: npm ci --loglevel warn
+      
+      - uses: actions/setup-node@v1
+      
+      - run: npm ci
 
       - run: npm run test
