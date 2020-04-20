@@ -1,0 +1,426 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Board should render correctly 1`] = `
+<View
+  collapsable={true}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#03A9F4",
+        "borderColor": "#0288D1",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "padding": 3,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "backgroundColor": "#ddccbb",
+            "borderRadius": 5,
+            "height": 68,
+            "margin": 5,
+            "width": 68,
+          }
+        }
+      />
+    </View>
+    <div
+      tile={
+        Object {
+          "column": 0,
+          "id": "KQ317M0iPCG7dnn5HwBCK",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 0,
+          "value": 5,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 1,
+          "id": "CeITToqKJ4hLt5XzfQuQA",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 0,
+          "value": 6,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 2,
+          "id": "WI9fDkLCK4bi6aUH4SGi3",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 0,
+          "value": 6,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 3,
+          "id": "bnYWFOluVTq0v28NIlNVU",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 0,
+          "value": 3,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 0,
+          "id": "GMqOeXXVnqhxvIG1dONHp",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 1,
+          "value": 8,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 1,
+          "id": "VWONtGPl8u7KwUw3QvOeB",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 1,
+          "value": 5,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 2,
+          "id": "OqbcyZrr6RvzVHDFr81Nz",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 1,
+          "value": 1,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 3,
+          "id": "kjxU8k_dTMPzfhga1e52Z",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 1,
+          "value": 7,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 0,
+          "id": "Hx5pVa3tErUIKZfxGSheo",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 2,
+          "value": 7,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 1,
+          "id": "39OGk3pF13ydnZTR53JBR",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 2,
+          "value": 4,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 2,
+          "id": "xWmRL7Z9GTwNcy8JItY70",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 2,
+          "value": 2,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 3,
+          "id": "Gz9x2LpfV0YvjpAUpB6pe",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 2,
+          "value": 4,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 0,
+          "id": "AQZEgW_RVS3BmFxzMkugJ",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 3,
+          "value": 9,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 1,
+          "id": "S5p7c1sYTaUXzKfUYYAf5",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 3,
+          "value": 1,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 2,
+          "id": "XKnfhJ3YpfNLrM-lDO1Dm",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 3,
+          "value": 9,
+        }
+      }
+    />
+    <div
+      tile={
+        Object {
+          "column": 3,
+          "id": "TLVZ_tlfp-M1BALvwa6AQ",
+          "mergedInto": null,
+          "oldRow": -1,
+          "row": 3,
+          "value": 2,
+        }
+      }
+    />
+  </View>
+</View>
+`;
