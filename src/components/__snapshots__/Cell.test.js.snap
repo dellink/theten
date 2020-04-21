@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cell should render correctly 1`] = `
+<View
+  collapsable={true}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(255, 238, 88, 1)",
+        "borderColor": "#0288D1",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "flex": 1,
+        "height": 68,
+        "justifyContent": "center",
+        "left": 8,
+        "opacity": 0,
+        "position": "absolute",
+        "top": 8,
+        "width": 68,
+      }
+    }
+  >
+    <
+      style={
+        Object {
+          "alignItems": "center",
+          "borderRadius": 5,
+          "flex": 1,
+          "justifyContent": "center",
+          "width": 68,
+        }
+      }
+      underlayColor="rgba(235, 218, 68, 0.6)"
+    >
+      <Text
+        style={
+          Object {
+            "borderRadius": 5,
+            "color": "#757575",
+            "fontFamily": "Verdana",
+            "fontSize": 32,
+            "fontWeight": "bold",
+            "textAlign": "center",
+            "textAlignVertical": "center",
+          }
+        }
+      >
+        5
+      </Text>
+    </>
+  </View>
+</View>
+`;
