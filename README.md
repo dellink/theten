@@ -1,4 +1,4 @@
-# theten &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dellink/theten/blob/master/LICENSE) ![CI](https://github.com/dellink/theten/workflows/CI/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/dellink/theten/badge.svg?branch=master)](https://coveralls.io/github/dellink/theten?branch=master)
+# theten &middot; [![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/dellink/theten/blob/master/LICENSE) ![CI](https://github.com/dellink/theten/workflows/CI/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/dellink/theten/badge.svg?branch=master)](https://coveralls.io/github/dellink/theten?branch=master)
 
 A small logic board game written in React Native.
 
