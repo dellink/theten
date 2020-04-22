@@ -27,6 +27,9 @@
     "react-test-renderer": "16.11.0"
   },
   "jest": {
-    "preset": "@testing-library/react-native"
+    "preset": "@testing-library/react-native",
+    "collectCoverageFrom": [
+      "src/**/*.js"
+    ]
   }
 }
