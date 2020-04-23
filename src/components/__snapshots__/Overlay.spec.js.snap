@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Overlay should render correctly 1`] = `
+<View
+  collapsable={true}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(221, 221, 221, 0.9)",
+        "bottom": 0,
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "#0187D0",
+          "fontSize": 30,
+          "fontWeight": "bold",
+          "marginBottom": 20,
+        }
+      }
+    >
+      Game over
+    </Text>
+    <
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#01A9F2",
+          "borderColor": "#0187D0",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "flex": 1,
+          "justifyContent": "center",
+          "maxHeight": 80,
+          "width": 140,
+        }
+      }
+      underlayColor="#0288D1"
+    >
+      <Text
+        style={
+          Object {
+            "alignSelf": "center",
+            "color": "white",
+            "fontSize": 20,
+            "fontWeight": "600",
+          }
+        }
+      >
+        Try again
+      </Text>
+    </>
+  </View>
+</View>
+`;
