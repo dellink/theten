@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Score should render correctly 1`] = `
+<View
+  collapsable={true}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "backgroundColor": "#03A9F4",
+        "borderColor": "#0288D1",
+        "borderRadius": 4,
+        "borderWidth": 1,
+        "flexDirection": "column",
+        "minWidth": 120,
+        "padding": 10,
+        "paddingBottom": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#B3E5FC",
+            "fontFamily": "Verdana",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginRight": 10,
+            "textAlign": "center",
+          }
+        }
+      >
+        Score:
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "Verdana",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        0
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#B3E5FC",
+            "fontFamily": "Verdana",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "marginRight": 10,
+            "textAlign": "center",
+          }
+        }
+      >
+        Record:
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "white",
+            "fontFamily": "Verdana",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        0
+      </Text>
+    </View>
+  </View>
+</View>
+`;
