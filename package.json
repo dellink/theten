@@ -30,6 +30,12 @@
     "preset": "@testing-library/react-native",
     "collectCoverageFrom": [
       "src/**/*.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/(?!(@react-native-community|react-native)/)"
+    ],
+    "setupFiles": [
+      "./jest.setup.js"
     ]
   }
 }
