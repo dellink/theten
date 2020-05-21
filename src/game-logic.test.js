@@ -1,5 +1,5 @@
 import { tiles } from '../mocks';
-import { generateTiles, isHasMove } from './game-logic';
+import { clear10, generateTiles, isHasMove } from './game-logic';
 
 describe('game logic', () => {
   it(`${generateTiles.name} should generate tiles`, () => {
@@ -16,5 +16,14 @@ describe('game logic', () => {
         })),
       ),
     ).toBeFalsy();
+  });
+
+  it(`${clear10.name} should clear 10's tiles`, () => {
+    const data = tiles.map(tile => ({ ...tile }));
+    data[0].value = 10;
+    const res = clear10(data);
+
+    expect(res.length).toBe(tiles.length + 1);
+    expect(res[0].mergedInto).not.toBeNull();
   });
 });
