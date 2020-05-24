@@ -1,5 +1,5 @@
 import { tiles } from '../mocks';
-import { CHECK_GAME_OVER, initialState, reducer } from './reducer';
+import { CHECK_GAME_OVER, LOAD_GAME, initialState, reducer } from './reducer';
 
 describe(reducer.name, () => {
   it(`${reducer.name} should handle ${CHECK_GAME_OVER}`, () => {
@@ -37,5 +37,21 @@ describe(reducer.name, () => {
     expect(res.tiles.length).toEqual(tiles.length + 1);
     expect(res.tiles[0].mergedInto).not.toBeNull();
     expect(res.tiles[0].mergedInto).toEqual(res.tiles[tiles.length]);
+  });
+
+  it(`${reducer.name} should handle ${LOAD_GAME}`, () => {
+    const res = reducer(initialState, {
+      type: LOAD_GAME,
+      payload: {
+        isGameOver: false,
+        record: 999,
+        score: 10,
+        tiles: tiles,
+      },
+    });
+
+    expect(res.tiles).toEqual(tiles);
+    expect(res.record).toEqual(999);
+    expect(res.score).toEqual(10);
   });
 });
