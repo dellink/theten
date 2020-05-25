@@ -1,5 +1,5 @@
 import { tiles } from '../mocks';
-import { CHECK_GAME_OVER, LOAD_GAME, initialState, reducer } from './reducer';
+import { CHECK_GAME_OVER, LOAD_GAME, MOVE_CELL, initialState, reducer } from './reducer';
 
 describe(reducer.name, () => {
   it(`${reducer.name} should handle ${CHECK_GAME_OVER}`, () => {
@@ -29,9 +29,8 @@ describe(reducer.name, () => {
   it(`${reducer.name} should handle ${CHECK_GAME_OVER} and clear 10's tiles`, () => {
     const state = {
       ...initialState,
-      tiles: tiles,
+      tiles: tiles.map((tile, index) => ({ ...tile, value: index === 0 ? 10 : tile.value })),
     };
-    state.tiles[0].value = 10;
     const res = reducer(state, { type: CHECK_GAME_OVER });
 
     expect(res.tiles.length).toEqual(tiles.length + 1);
@@ -53,5 +52,22 @@ describe(reducer.name, () => {
     expect(res.tiles).toEqual(tiles);
     expect(res.record).toEqual(999);
     expect(res.score).toEqual(10);
+  });
+
+  it(`${reducer.name} should handle ${MOVE_CELL}`, () => {
+    const res = reducer(
+      { ...initialState, tiles: tiles },
+      {
+        type: MOVE_CELL,
+        payload: {
+          direction: 0,
+          tile: tiles[14],
+        },
+      },
+    );
+
+    expect(res.tiles.length).toEqual(tiles.length + 3);
+    expect(res.score).toEqual(initialState.score + 1);
+    expect(res.record).toEqual(res.score);
   });
 });
