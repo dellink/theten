@@ -1,4 +1,4 @@
-import React, { useEffect, useReducer, useRef } from 'react';
+import React from 'react';
 import { AppState, StyleSheet, View } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 import { BOARD_PADDING, BOARD_SIZE, CELL_MARGIN, CELL_SIZE, STORAGE_KEY } from '../config';
@@ -10,10 +10,10 @@ import Overlay from './Overlay';
 import Score from './Score';
 
 export default function Game() {
-  const [state, dispatch] = useReducer(reducer, initialState);
+  const [state, dispatch] = React.useReducer(reducer, initialState);
   const { isGameOver, record, score, tiles } = state;
 
-  const stateRef = useRef();
+  const stateRef = React.useRef();
   stateRef.current = state;
 
   const onPressNewGame = () => dispatch({ type: NEW_GAME });
@@ -26,7 +26,7 @@ export default function Game() {
     }, 200);
   };
 
-  useEffect(() => {
+  React.useEffect(() => {
     (async () => {
       try {
         const data = await AsyncStorage.getItem(STORAGE_KEY);
@@ -42,7 +42,7 @@ export default function Game() {
     })();
   }, []);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const handleAppStateChange = appState => {
       if (appState.match(/inactive/)) {
         saveState({

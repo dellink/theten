@@ -1,0 +1,398 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Game should render initial state correctly 1`] = `
+<View
+  collapsable={true}
+  pointerEvents="box-none"
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#B2E5FA",
+        "flex": 1,
+        "flexDirection": "column",
+        "justifyContent": "center",
+        "padding": 20,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginBottom": 60,
+          "width": 318,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#01A9F2",
+              "borderColor": "#0187D0",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "flex": 1,
+              "justifyContent": "center",
+              "maxHeight": 80,
+              "width": 140,
+            }
+          }
+          underlayColor="#0288D1"
+        >
+          <Text
+            style={
+              Object {
+                "alignSelf": "center",
+                "color": "white",
+                "fontSize": 20,
+                "fontWeight": "600",
+              }
+            }
+          >
+            New game
+          </Text>
+        </>
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "column",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#03A9F4",
+              "borderColor": "#0288D1",
+              "borderRadius": 4,
+              "borderWidth": 1,
+              "flexDirection": "column",
+              "minWidth": 120,
+              "padding": 10,
+              "paddingBottom": 0,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#B3E5FC",
+                  "fontFamily": "Verdana",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "marginRight": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Score:
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontFamily": "Verdana",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                }
+              }
+            >
+              0
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+                "justifyContent": "space-between",
+                "marginBottom": 10,
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#B3E5FC",
+                  "fontFamily": "Verdana",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "marginRight": 10,
+                  "textAlign": "center",
+                }
+              }
+            >
+              Record:
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontFamily": "Verdana",
+                  "fontSize": 14,
+                  "fontWeight": "bold",
+                  "textAlign": "center",
+                }
+              }
+            >
+              0
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#03A9F4",
+            "borderColor": "#0288D1",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "padding": 3,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "flexDirection": "row",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+          <View
+            style={
+              Object {
+                "backgroundColor": "#ddccbb",
+                "borderRadius": 5,
+                "height": 68,
+                "margin": 5,
+                "width": 68,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
